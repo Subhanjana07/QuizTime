@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "656067261269",
+    "project_id": "quiz-time-e89e4",
+    "storage_bucket": "quiz-time-e89e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656067261269:android:78554a10d6aaab482275dc",
+        "android_client_info": {
+          "package_name": "com.company.quizgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656067261269-rkmki106h7ed8n6lsp7d7bng7c2sk4qh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.quizgame",
+            "certificate_hash": "38be428103c5748236b6ba3f14db31b65eaa8582"
+          }
+        },
+        {
+          "client_id": "656067261269-bmemcrhrlp95dsl1huiqsk28i4dpgovf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkTGVMWzxZdAaUbQc5-PE3CbWEwHIVkPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656067261269-b26oc22asrov0pns52qa6hqthlhi6ll0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

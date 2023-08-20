@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/congratsbackground"
+    tools:context=".ScorePage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="17dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarFinish"
+        app:srcCompat="@drawable/congratspic" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"
+                android:text="Correct Answer : "
+                android:textColor="@color/lavender"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewCorrectScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"
+                android:textColor="@color/lavender"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"
+                android:text="Wrong Answer : "
+                android:textColor="@color/lavender"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewWrongScore"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_marginEnd="10dp"
+                android:padding="5dp"
+                android:text=" "
+                android:textColor="@color/lavender"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="46dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <Button
+            android:id="@+id/buttonPlayAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/lavender"
+            android:text="PLAY AGAIN"
+            android:textColor="#E44A4A"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="88dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/lavender"
+            android:text="EXIT"
+            android:textColor="#E44A4A"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
